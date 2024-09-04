@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-image: url("Images/Stadium.jpg");
+  color: black;
+  background-size: cover;
+}
+.title-game {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Bungee Shade", sans-serif;
+  color: black;
+}
+.choice-button {
+  height: 180px;
+  width: 180px;
+  border-radius: 130px;
+  border: none;
+  background-image: url("Images/Pitch.jpg");
+  cursor: pointer;
+  margin: 20px;
+}
+.choice-image {
+  height: 130px;
+}
+.choice-game {
+  font-weight: 800;
+  color: white;
+  font-style: italic;
+}
+#score {
+  font-weight: normal;
+  font-size: xx-large;
+  font-family: "Jersey 20 Charted", sans-serif;
+  color: rgb(3, 63, 3);
+  box-sizing: content-box;
+  background-color: yellow;
+  display: inline;
+  height: 30px;
+  border: 3px dashed green;
+}
+#result {
+  font-size: x-large;
+  font-style: normal;
+}
+#reset-button {
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: black;
+  background: none;
+  border: 2px solid gray;
+  cursor: pointer;
+}
